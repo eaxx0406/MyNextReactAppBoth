@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ea\\Source\\Repos\\MyNextReactAppBothNewClone\\NewBackendApi\\NewBackendApi.csproj": {}
+    "C:\\Users\\ea\\Source\\Repos\\MyNextReactAppBothNewtest\\NewBackendApi\\NewBackendApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ea\\Source\\Repos\\MyNextReactAppBothNewClone\\NewBackendApi\\NewBackendApi.csproj": {
+    "C:\\Users\\ea\\Source\\Repos\\MyNextReactAppBothNewtest\\NewBackendApi\\NewBackendApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ea\\Source\\Repos\\MyNextReactAppBothNewClone\\NewBackendApi\\NewBackendApi.csproj",
+        "projectUniqueName": "C:\\Users\\ea\\Source\\Repos\\MyNextReactAppBothNewtest\\NewBackendApi\\NewBackendApi.csproj",
         "projectName": "NewBackendApi",
-        "projectPath": "C:\\Users\\ea\\Source\\Repos\\MyNextReactAppBothNewClone\\NewBackendApi\\NewBackendApi.csproj",
+        "projectPath": "C:\\Users\\ea\\Source\\Repos\\MyNextReactAppBothNewtest\\NewBackendApi\\NewBackendApi.csproj",
         "packagesPath": "C:\\Users\\ea\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ea\\Source\\Repos\\MyNextReactAppBothNewClone\\NewBackendApi\\obj\\",
+        "outputPath": "C:\\Users\\ea\\Source\\Repos\\MyNextReactAppBothNewtest\\NewBackendApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
