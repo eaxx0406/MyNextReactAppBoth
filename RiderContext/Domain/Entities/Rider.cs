@@ -12,5 +12,13 @@ namespace HorseRiderContext.Domain.Entities
         public int Id { get; set; }
         public string Email { get; set; }
         public int BirthYear { get; set; }
+
+        public Rider(string name, string email, int birthYear)
+        {
+            RiderName = name;
+            Email = email;
+            BirthYear = birthYear;
+        }
+        public Rider() { }
     }
 }

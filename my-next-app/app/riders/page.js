@@ -1,5 +1,4 @@
-﻿// app/riders/page.js
-"use client";
+﻿"use client";
 
 import { useState, useEffect } from "react";
 
@@ -9,37 +8,55 @@ export default function RytterPage() {
     const [loading, setLoading] = useState(true);
 
     const handleChange = (e) => setFormData({ ...formData, [e.target.name]: e.target.value });
-    const handleSubmit = (e) => {
+
+    const handleSubmit = async (e) => {
         e.preventDefault();
         if (!formData.navn || !formData.fødselsår || !formData.email) return alert("Udfyld alle felter!");
-        setRyttere([...ryttere, formData]);
-        setFormData({ navn: "", fødselsår: "", email: "" });
+
+        try {
+            const response = await fetch("https://localhost:7205/api/rider", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    Name: formData.navn,
+                    Email: formData.email,
+                    BirthYear: parseInt(formData.fødselsår)
+                })
+            });
+
+            if (!response.ok) throw new Error("Kunne ikke oprette rytteren");
+
+            const newRytter = await response.json();
+            setRyttere([...ryttere, newRytter]); // opdater listen med den nye rytter
+            setFormData({ navn: "", fødselsår: "", email: "" });
+
+        } catch (error) {
+            console.error("Fejl ved oprettelse af rytter:", error);
+            alert("Noget gik galt, prøv igen.");
+        }
     };
 
     useEffect(() => {
-        fetch("https://localhost:7205/api/rider")
-            .then((res) => {
+        const fetchRyttere = async () => {
+            try {
+                const res = await fetch("https://localhost:7205/api/rider");
                 if (!res.ok) throw new Error("Network response was not ok");
-                return res.text(); // hent som tekst først
-            })
-            .then((text) => {
-                if (!text) return []; // tomt svar håndteres
-                return JSON.parse(text);
-            })
-            .then((data) => {
+                const data = await res.json();
                 setRyttere(data);
-                setLoading(false);
-            })
-            .catch((err) => {
+            } catch (err) {
                 console.error("Error fetching riders:", err);
+            } finally {
                 setLoading(false);
-            });
-    }, [])
+            }
+        };
 
+        fetchRyttere();
+    }, []);
 
     return (
         <div className="p-8 font-sans bg-gray-100 min-h-screen">
             <h1 className="text-2xl font-bold mb-4">Opret Rytter</h1>
+
             <form onSubmit={handleSubmit} className="mb-8 space-y-4">
                 <div>
                     <label className="block mb-1">Navn:</label>
@@ -77,13 +94,17 @@ export default function RytterPage() {
             </form>
 
             <h2 className="text-xl font-semibold mb-2">Liste over ryttere</h2>
-            <ul className="list-disc pl-5">
-                {ryttere.map((r, index) => (
-                    <li key={index}>
-                        {r.name} ({r.birthYear}) - {r.email}
-                    </li>
-                ))}
-            </ul>
+            {loading ? (
+                <p>Loading...</p>
+            ) : (
+                <ul className="list-disc pl-5">
+                    {ryttere.map((r) => (
+                        <li key={r.id}>
+                            {r.name} ({r.birthYear}) - {r.email}
+                        </li>
+                    ))}
+                </ul>
+            )}
         </div>
     );
 }
