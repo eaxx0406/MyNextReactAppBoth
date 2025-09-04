@@ -4,7 +4,7 @@
             <h1>Hej Team 09</h1>
             <p>Dette er en simpel Next.js-side!</p>
             <p>Velkommen til vores projekt.</p>
-            <p>ændering.</p>
+            <p>ændering igen.</p>
         </div>
     );
 }

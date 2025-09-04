@@ -1,0 +1,16 @@
+C:\Users\ea\Source\Repos\MyNextReactAppBothWorks\RiderContext\bin\Debug\net9.0\HorseRiderContext.deps.json
+C:\Users\ea\Source\Repos\MyNextReactAppBothWorks\RiderContext\bin\Debug\net9.0\HorseRiderContext.dll
+C:\Users\ea\Source\Repos\MyNextReactAppBothWorks\RiderContext\bin\Debug\net9.0\HorseRiderContext.pdb
+C:\Users\ea\Source\Repos\MyNextReactAppBothWorks\RiderContext\bin\Debug\net9.0\SharedKernel.dll
+C:\Users\ea\Source\Repos\MyNextReactAppBothWorks\RiderContext\bin\Debug\net9.0\SharedKernel.pdb
+C:\Users\ea\Source\Repos\MyNextReactAppBothWorks\RiderContext\obj\Debug\net9.0\HorseRiderContext.csproj.AssemblyReference.cache
+C:\Users\ea\Source\Repos\MyNextReactAppBothWorks\RiderContext\obj\Debug\net9.0\HorseRiderContext.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ea\Source\Repos\MyNextReactAppBothWorks\RiderContext\obj\Debug\net9.0\HorseRiderContext.AssemblyInfoInputs.cache
+C:\Users\ea\Source\Repos\MyNextReactAppBothWorks\RiderContext\obj\Debug\net9.0\HorseRiderContext.AssemblyInfo.cs
+C:\Users\ea\Source\Repos\MyNextReactAppBothWorks\RiderContext\obj\Debug\net9.0\HorseRiderContext.csproj.CoreCompileInputs.cache
+C:\Users\ea\Source\Repos\MyNextReactAppBothWorks\RiderContext\obj\Debug\net9.0\HorseRiderContext.sourcelink.json
+C:\Users\ea\Source\Repos\MyNextReactAppBothWorks\RiderContext\obj\Debug\net9.0\HorseRid.8C18AAAE.Up2Date
+C:\Users\ea\Source\Repos\MyNextReactAppBothWorks\RiderContext\obj\Debug\net9.0\HorseRiderContext.dll
+C:\Users\ea\Source\Repos\MyNextReactAppBothWorks\RiderContext\obj\Debug\net9.0\refint\HorseRiderContext.dll
+C:\Users\ea\Source\Repos\MyNextReactAppBothWorks\RiderContext\obj\Debug\net9.0\HorseRiderContext.pdb
+C:\Users\ea\Source\Repos\MyNextReactAppBothWorks\RiderContext\obj\Debug\net9.0\ref\HorseRiderContext.dll

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kvgUtIJEXcs=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ea\\Source\\Repos\\MyNextReactAppBothWorks\\SharedKernel\\SharedKernel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ea\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.200\\microsoft.net.sdk.compilers.toolset.9.0.200.nupkg.sha512"
+  ],
+  "logs": []
+}
