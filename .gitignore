@@ -1,0 +1,23 @@
+# Node / frontend
+my-next-app/node_modules/
+my-next-app/.next/
+my-next-app/out/
+
+# ASP.NET / backend
+BackendAPI/bin/
+BackendAPI/obj/
+BackendAPI/publish/
+BackendAPI/*.user
+BackendAPI/*.suo
+BackendAPI/*.userosscache
+
+# IDE
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Visual Studio
+.vs/
