@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HorseRiderContext")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85abfd22f8d8ff70c51d3b8827e42b631102ef4e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a84c84d99736daec600d134922d7950dfa14c3d1")]
 [assembly: System.Reflection.AssemblyProductAttribute("HorseRiderContext")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HorseRiderContext")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

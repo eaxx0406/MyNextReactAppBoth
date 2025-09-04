@@ -27,15 +27,15 @@ namespace HorseRiderContext.Infrastructure.repositories
 
             public async Task<List<Rider>> GetAllAsync()
             {
-            // Returner dummy data i stedet for database
-            var dummyRyttere = new List<Rider>
-            {
-                new Rider { Id = 1, RiderName = "Mads", BirthYear = 1995, Email = "mads@example.com" },
-                new Rider { Id = 2, RiderName = "Sofie", BirthYear = 2000, Email = "sofie@example.com" },
-                new Rider { Id = 3, RiderName = "Jonas", BirthYear = 1998, Email = "jonas@example.com" }
-            };
+            //// Returner dummy data i stedet for database
+            //var dummyRyttere = new List<Rider>
+            //{
+            //    new Rider { Id = 1, RiderName = "Mads", BirthYear = 1995, Email = "mads@example.com" },
+            //    new Rider { Id = 2, RiderName = "Sofie", BirthYear = 2000, Email = "sofie@example.com" },
+            //    new Rider { Id = 3, RiderName = "Jonas", BirthYear = 1998, Email = "jonas@example.com" }
+            //};
 
-            return await Task.FromResult(dummyRyttere);
+            //return await Task.FromResult(dummyRyttere);
 
             return await _context.Riders.ToListAsync();
             }
