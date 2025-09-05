@@ -10,3 +10,15 @@ C:\Users\ea\Source\Repos\MyNextReactAppBothWorks\SharedKernel\obj\Debug\net9.0\S
 C:\Users\ea\Source\Repos\MyNextReactAppBothWorks\SharedKernel\obj\Debug\net9.0\refint\SharedKernel.dll
 C:\Users\ea\Source\Repos\MyNextReactAppBothWorks\SharedKernel\obj\Debug\net9.0\SharedKernel.pdb
 C:\Users\ea\Source\Repos\MyNextReactAppBothWorks\SharedKernel\obj\Debug\net9.0\ref\SharedKernel.dll
+C:\SourceControl\MyNextReactAppBoth\SharedKernel\bin\Debug\net9.0\SharedKernel.deps.json
+C:\SourceControl\MyNextReactAppBoth\SharedKernel\bin\Debug\net9.0\SharedKernel.dll
+C:\SourceControl\MyNextReactAppBoth\SharedKernel\bin\Debug\net9.0\SharedKernel.pdb
+C:\SourceControl\MyNextReactAppBoth\SharedKernel\obj\Debug\net9.0\SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+C:\SourceControl\MyNextReactAppBoth\SharedKernel\obj\Debug\net9.0\SharedKernel.AssemblyInfoInputs.cache
+C:\SourceControl\MyNextReactAppBoth\SharedKernel\obj\Debug\net9.0\SharedKernel.AssemblyInfo.cs
+C:\SourceControl\MyNextReactAppBoth\SharedKernel\obj\Debug\net9.0\SharedKernel.csproj.CoreCompileInputs.cache
+C:\SourceControl\MyNextReactAppBoth\SharedKernel\obj\Debug\net9.0\SharedKernel.sourcelink.json
+C:\SourceControl\MyNextReactAppBoth\SharedKernel\obj\Debug\net9.0\SharedKernel.dll
+C:\SourceControl\MyNextReactAppBoth\SharedKernel\obj\Debug\net9.0\refint\SharedKernel.dll
+C:\SourceControl\MyNextReactAppBoth\SharedKernel\obj\Debug\net9.0\SharedKernel.pdb
+C:\SourceControl\MyNextReactAppBoth\SharedKernel\obj\Debug\net9.0\ref\SharedKernel.dll

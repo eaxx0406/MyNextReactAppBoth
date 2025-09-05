@@ -4,12 +4,10 @@ my-next-app/.next/
 my-next-app/out/
 
 # ASP.NET / backend
-BackendAPI/bin/
-BackendAPI/obj/
-BackendAPI/publish/
-BackendAPI/*.user
-BackendAPI/*.suo
-BackendAPI/*.userosscache
+**/[Bb]in/
+**/[Oo]bj/
+.vs/
+publish/
 
 # IDE
 .vscode/
@@ -18,6 +16,3 @@ BackendAPI/*.userosscache
 # System
 .DS_Store
 Thumbs.db
-
-# Visual Studio
-.vs/
